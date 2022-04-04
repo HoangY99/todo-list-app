@@ -84,7 +84,6 @@
                             autofocus
                             ref="content"
                             :state="state"
-
                         ></b-form-input>
                     </b-form-group>
 
@@ -93,9 +92,7 @@
                             id="description"
                             v-model="newTodo().description"
                             placeholder="Enter task description"
-                            required
-                            
-
+                            required                            
                         ></b-form-input>
                     </b-form-group>
 
